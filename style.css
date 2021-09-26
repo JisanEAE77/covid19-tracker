@@ -1,0 +1,104 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#form {
+    text-align: center;
+    font-weight: bolder;
+}
+#form label span {
+    color: red
+}
+#form label {
+    display: block;
+
+}
+#form select {
+    margin-bottom: 50px;
+    padding: 12px 15px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px rgba(53, 54, 54, 0.9);
+    cursor: pointer;
+}
+#header {
+    text-align: center;
+}
+#header h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+#gif {
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#corona {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#corona-details table {
+    margin-bottom: 50px;
+}
+#corona-details table, #corona-details tr, #corona-details td, #corona-details th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#corona-details td, #corona-details th {
+    padding: 10px 20px;
+}
+
+#corona-details th {
+    background-color: brown;
+    color: white;
+}
+#corona-details td {
+    background-color: black;
+    color: skyblue;
+    border: 1px solid brown
+}
+#footer {
+    text-align: center;
+}
+#footer a {
+    color: brown;
+    text-decoration: none;
+}
+hr {
+    color: gainsboro;
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    #gif {
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #header h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    #corona-details tr {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: none;
+        
+    }
+    #corona-details th, #corona-details td {
+        border: none;
+    }
+}
